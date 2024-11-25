@@ -68,15 +68,15 @@ By analyzing NDVI changes:
 ## Results
 
 ### NDVI Time Series
-![NDVI Time Series](figures/fig_4.jpg)  
+![NDVI Time Series](figures/Img_4.jpg)  
 Visualization of vegetation health trends from 2017 to 2024.
 
 ### Land Cover Change Classification
-![Land Cover Changes](figures/fig_2.jpg)  
+![Land Cover Changes](figures/Img_2.jpg)  
 Classification of deforestation (red), afforestation (green), and stable areas (gray).  
 
 ### Seasonal NDVI Distribution
-![Seasonal NDVI](figures/fig_5.jpg)  
+![Seasonal NDVI](figures/Img_5.jpg)  
 Comparison of NDVI trends across seasons.
 
 ---
@@ -89,7 +89,7 @@ Using **LSTM networks**, future NDVI trends were predicted:
 - **Metrics**: Mean Squared Error (MSE), Mean Absolute Error (MAE).
 
 ### Model Performance
-![LSTM Performance](figures/fig_3.jpg)
+![LSTM Performance](figures/Img_3.jpg)
 
 ---
 
@@ -129,4 +129,4 @@ This project successfully demonstrates:
 
 ---
 
-Feel free to replace placeholders (`figures/cover.jpg`, `figures/fig_4.jpg`, etc.) with your actual image paths. Let me know if you'd like further customization! 🚀
+Feel free to replace placeholders (`figures/cover.jpg`, `figures/Img_4.jpg`, etc.) with your actual image paths. Let me know if you'd like further customization! 🚀
