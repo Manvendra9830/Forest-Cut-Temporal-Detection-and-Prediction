@@ -1,6 +1,6 @@
 # NDVI Time Series Analysis and Temporal ForestCut Detection
 
-![Project Banner Placeholder](figures/cover.jpg)
+![Project Banner Placeholder](figures/cover.png)
 
 > **Analyze NDVI time series, detect land cover changes, and predict future trends using Google Earth Engine (GEE) and LSTM models.**  
 > Scalable to any location globally, demonstrated through a case study of Indore, India.
@@ -9,7 +9,6 @@
 1. [Introduction](#introduction)
 2. [Methodology](#methodology)
     - [Study Area and Data Acquisition](#study-area-and-data-acquisition)
-    - [NDVI Calculation](#ndvi-calculation)
     - [Seasonal Analysis](#seasonal-analysis)
     - [ForestCut Detection](#forestcut-detection)
 3. [Results](#results)
@@ -42,9 +41,8 @@ The study focuses on **Indore, India** (Lat: 22.7196, Long: 75.8788) but is adap
 > **Data Preprocessing**:  
 > - Cloud masking using the SCL layer.  
 > - NDVI computation as:  
-> \[
-> \text{NDVI} = \frac{(\text{NIR} - \text{RED})}{(\text{NIR} + \text{RED})}
-> \]
+>
+>   NDVI = (NIR - RED) / (NIR + RED)
 
 ---
 
